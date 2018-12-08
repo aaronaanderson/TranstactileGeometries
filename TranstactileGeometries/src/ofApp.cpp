@@ -34,7 +34,7 @@ void ofApp::draw(){
 	geometry.renderSlice(1.0);
 	camera.end(); 
 	ofDisableDepthTest();
-	ofSaveFrame();
+	//ofSaveFrame();
 	gui.draw();
 }
 

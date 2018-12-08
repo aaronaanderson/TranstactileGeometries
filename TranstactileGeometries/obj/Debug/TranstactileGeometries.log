@@ -1,37 +1,73 @@
 ﻿  Geometry.cpp
   main.cpp
   ofApp.cpp
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(97): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\apps\myapps\transtactilegeometries\src\ofapp.cpp(18): warning C4996: 'ofSoundStreamSetup': Use an ofSoundStreamSettings object instead of directly passing the parameters
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(34): warning C4018: '<': signed/unsigned mismatch (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(34): warning C4018: '<': signed/unsigned mismatch (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\apps\transtactilegeometries\transtactilegeometries\src\ofapp.cpp(18): warning C4996: 'ofSoundStreamSetup': Use an ofSoundStreamSettings object instead of directly passing the parameters
   c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\sound\ofsoundstream.h(31): note: see declaration of 'ofSoundStreamSetup'
-c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(97): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
-  TranstactileGeometries.vcxproj -> C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\TranstactileGeometries_debug.exe
+  BaseEnvelope.cpp
+  CREnvelope.cpp
+  CTEnvelope.cpp
+  ImpulseGenerators.cpp
+  Noise.cpp
+  BaseOscillator.cpp
+  TrivialOscillators.cpp
+  WavetableGeneration.cpp
+  WavetableOscillators.cpp
+  Biquad.cpp
+  Filters.cpp
+  Reverb.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\modifiers\Reverb.cpp)
+  Interpolation.cpp
+  Meters.cpp
+  Miscellaneous.cpp
+  Oscilliscope.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\interpolation.hpp(34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\interpolation.hpp(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\miscellaneous.hpp(16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Miscellaneous.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\interpolation.hpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\miscellaneous.hpp(26): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Miscellaneous.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\interpolation.hpp(38): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\Interpolation.cpp)
+  Smoother.cpp
+  Spatialization.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\oscilliscope.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  Spectroscope.cpp
+  TapInTapOut.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(23): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\tapintapout.hpp(60): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data (compiling source file ..\..\..\addons\ofxATK\src\utilities\TapInTapOut.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(34): warning C4018: '<': signed/unsigned mismatch (compiling source file ..\..\..\addons\ofxATK\src\utilities\Spectroscope.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  ATKSettings.cpp
+  AudioFFT.cpp
+  ofxATK.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(34): warning C4018: '<': signed/unsigned mismatch (compiling source file ..\..\..\addons\ofxATK\libs\ofxATK.cpp)
+  ofxBaseGui.cpp
+  ofxButton.cpp
+  ofxColorPicker.cpp
+  ofxGuiGroup.cpp
+  ofxInputField.cpp
+  ofxLabel.cpp
+  ofxPanel.cpp
+  ofxSlider.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxgui\src\ofxinputfield.cpp(276): warning C4018: '<': signed/unsigned mismatch
+  c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxgui\src\ofxinputfield.cpp(265): note: while compiling class template member function 'void ofxInputField<float>::moveCursor(int)'
+  c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxgui\src\ofxinputfield.cpp(368): note: see reference to function template instantiation 'void ofxInputField<float>::moveCursor(int)' being compiled
+  c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxgui\src\ofxinputfield.cpp(800): note: see reference to class template instantiation 'ofxInputField<float>' being compiled
+  ofxSliderGroup.cpp
+  ofxToggle.cpp
+     Creating library bin\TranstactileGeometries_debug.lib and object bin\TranstactileGeometries_debug.exp
+  TranstactileGeometries.vcxproj -> C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\TranstactileGeometries\TranstactileGeometries\bin\TranstactileGeometries_debug.exe
   
-  	                   2	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\x64\
-  	  *EXTRA File 		 1266176	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodex.dll
-  	  *EXTRA File 		 1312768	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodexL.dll
-  	  *EXTRA File 		 6402560	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\FreeImage.dll
+  	                   2	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\
+  	    New File  		 1266176	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\fmodex.dll
+  	    New File  		 1312768	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\Win32\fmodexL.dll
   
-  	                   1	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\x64\
-  	  *EXTRA File 		 1266176	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodex.dll
-  	  *EXTRA File 		 1503232	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodex64.dll
-  	  *EXTRA File 		 1312768	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodexL.dll
-  	  *EXTRA File 		 1552384	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodexL64.dll
+  	                   1	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\
+  	  *EXTRA File 		 1266176	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\TranstactileGeometries\TranstactileGeometries\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\TranstactileGeometries\TranstactileGeometries\bin\fmodexL.dll
+  	    New File  		 5647872	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\Win32\FreeImage.dll

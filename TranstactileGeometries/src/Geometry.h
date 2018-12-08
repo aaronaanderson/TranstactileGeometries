@@ -20,7 +20,7 @@ private:
 	float tukeyWindow(float w,float x,float y);//3D windowing function 
 
 	ofMesh slice;
-	static const unsigned resolution = 2048;
+	static const unsigned resolution = 256;
 	float offset = resolution * 0.5;
 	bool applyWindow = true;
 	
