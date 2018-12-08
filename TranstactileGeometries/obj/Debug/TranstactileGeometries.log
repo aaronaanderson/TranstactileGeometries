@@ -1,0 +1,37 @@
+﻿  Geometry.cpp
+  main.cpp
+  ofApp.cpp
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\Geometry.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(326): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(331): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(912): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(913): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(914): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\math\ofmatrix4x4.h(915): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(97): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\ofApp.cpp)
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\apps\myapps\transtactilegeometries\src\ofapp.cpp(18): warning C4996: 'ofSoundStreamSetup': Use an ofSoundStreamSettings object instead of directly passing the parameters
+  c:\users\anderson\documents\of_v0.10.0_vs2017_release\libs\openframeworks\sound\ofsoundstream.h(31): note: see declaration of 'ofSoundStreamSetup'
+c:\users\anderson\documents\of_v0.10.0_vs2017_release\addons\ofxatk\src\utilities\spectroscope.hpp(97): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data (compiling source file src\main.cpp)
+  TranstactileGeometries.vcxproj -> C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\TranstactileGeometries_debug.exe
+  
+  	                   2	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\fmodex\lib\vs\x64\
+  	  *EXTRA File 		 1266176	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodex.dll
+  	  *EXTRA File 		 1312768	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodexL.dll
+  	  *EXTRA File 		 6402560	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\FreeImage.dll
+  
+  	                   1	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\libs\FreeImage\lib\vs\x64\
+  	  *EXTRA File 		 1266176	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodex.dll
+  	  *EXTRA File 		 1503232	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodex64.dll
+  	  *EXTRA File 		 1312768	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodexL.dll
+  	  *EXTRA File 		 1552384	C:\Users\Anderson\Documents\of_v0.10.0_vs2017_release\apps\myApps\TranstactileGeometries\bin\fmodexL64.dll
