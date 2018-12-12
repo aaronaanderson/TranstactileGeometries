@@ -27,7 +27,11 @@ void Geometry::initializeSlice(float w = 22) {
 			float scaledYValue = (j * 2 / float(resolution - 1)) - 1.0f;//scale 0 - resolution-1 to -1,1
 			int index = i * resolution + j;//map 2D to linear array
 
-			float z = cos((sin(4 * scaledXValue*scaledYValue)) / (pow(scaledXValue, 2) + pow(scaledYValue, 3)));;//depth at x, y, w
+			float rotationAmount = (i*TWO_PI * 2) / (float)resolution;
+			ofVec3f temp = { scaledXValue, scaledYValue,0.0f };
+			temp.rotateRad(rotationAmount, ofVec3f(1.00, 0, 0));
+			float z = cos((sin(4 * temp.x*temp.y)) / (pow(temp.x, 2) + pow(temp.y, 3)));;//depth at x, y, w
+			//float z = cos((sin(4  * scaledXValue*scaledYValue)) / (pow(scaledXValue, 2) + pow(scaledYValue, 3)));;//depth at x, y, w
 
 			ofColor sliceColor = { 100, 180, 180 };
 			float colorScale = (z + 1.0f)*0.5;
@@ -54,13 +58,20 @@ void Geometry::initializeSlice(float w = 22) {
 
 void Geometry::calculateSlice(float w) {
 	float scaledWValue = ((1.0f-fabsf(w)) * 12) ;//explained in notes.
+	float rotationAmount = (w*TWO_PI);//rotate 2 times over the course of the shape
 	for (int i = 0; i < resolution; ++i) {
 		float scaledXValue = (i * 2 / float(resolution - 1)) - 1.0f;//scale 0 - resolution-1 to -1,1
 		for (int j = 0; j < resolution; ++j) {
 			float scaledYValue = (j * 2 / float(resolution - 1)) - 1.0f;//scale 0 - resolution-1 to -1,1
 			int index = i * resolution + j;//map 2D to linear array
 			
-			float z = cos((sin(scaledWValue * scaledXValue*scaledYValue)) / (pow(scaledXValue, 2) + pow(scaledYValue, 3)));;//depth at x, y, w
+
+			
+			ofVec2f temp = { scaledXValue, scaledYValue };
+			temp.rotateRad(rotationAmount);
+			float z = cos((sin(scaledWValue * temp.x*temp.y)) / (pow(temp.x, 2) + pow(temp.y, 3)));;//depth at x, y, w
+
+			//float z = cos((sin(scaledWValue * scaledXValue*scaledYValue)) / (pow(scaledXValue, 2) + pow(scaledYValue, 3)));;//depth at x, y, w
 			float windowValue = tukeyWindow(w, scaledXValue, scaledYValue);
 			if (applyWindow) {
 				z *= windowValue;
